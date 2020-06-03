@@ -1,0 +1,30 @@
+Ahsan Raza AHSAN c
+ahsan Raza Ahsan
+
+a b c
+
+-()',;:?.!
+
+-()' â?.! Â
+Ahsan RAZA raza
+
+Ahsan  Raza
+check_only_one_or_zero_space = [\p{L}\-()',;:?.!]+( [\p{L}\-()',;:?.!]+)*
+
+abc?
+abc.
+abx!
+abc A
+abc;
+check_end_for_given_chars_or_for_an_uppercase_character = check1   .*[\p{Lu}]$
+                                                        = check2   .*[.*[?.!]$]
+                                                        = check3   .*[,;:]\s$
+Ahsan Raza.
+
+Ahsan
+
+
+
+check for [?.!] = .*[A-Za-z]+[.!?]( [A-Z][a-z])?$
+check for [:,;] = .*[A-Za-z]+[,;:]( [A-Za-z][a-z])?$
+check for [capital] = (([A-Z]|[a-z])(([a-z]+)|([A-Z]+)) ?)+
